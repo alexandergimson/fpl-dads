@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+:root {
+  --bg: #f7f7f9;
+  --fg: #121212;
+  --muted: #666;
+  --border: #e6e6ea;
+  --card: #ffffff;
+
+  --radius: 12px;
+  --pad: 16px;
+
+  /* Column widths */
+  --pos-w: 28px;   /* you said 20 too small, 30 too big */
+  --badge-w: 48px; /* cell width for image column */
+  --row-h: 56px;   /* consistent row height */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, "Apple Color Emoji", "Segoe UI Emoji"; }
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.title { font-size: 24px; font-weight: 700; margin: 0; }
+
+.button {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:disabled { opacity: 0.6; cursor: default; }
+.button:hover:enabled { box-shadow: 0 1px 8px rgba(0,0,0,0.06); }
+
+.table {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Header row */
+.row--head {
+  background: #fafafb;
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* Rows */
+.row {
+  display: flex;                 /* FLEX EVERYTHING */
+  align-items: center;
+  min-height: var(--row-h);
+  border-top: 1px solid var(--border);
+  padding: 0 12px;
+}
+.row:first-child { border-top: 0; }
+.row--head { border-top: 0; }
+
+/* Cells */
+.cell {
+  display: flex;                 /* so we can center content easily */
+  align-items: center;
+  padding: 8px 8px;
+}
+
+/* Column sizing */
+.cell--pos {
+  width: var(--pos-w);
+  justify-content: center;       /* center the rank horizontally */
+  text-align: center;
+  flex: 0 0 var(--pos-w);        /* fixed */
+  min-width: 70px;
+}
+
+.cell--team {
+  flex: 1 1 auto;
+  min-width: 120px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between image and name */
+}
+
+.cell--badge {
+  width: var(--badge-w);
+  flex: 0 0 var(--badge-w);      /* fixed */
+  justify-content: center;       /* center the image */
+}
+
+.cell--pts {
+  width: 140px;
+  flex: 0 0 140px;               /* fixed on larger screens */
+  justify-content: flex-end;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Nice borders between rows */
+.table .row:not(.row--head) + .row { border-top: 1px solid var(--border); }
+
+/* Badge image */
+.badge {
+  width: 5rem;
+
+  border-radius: 8px; /* change to 50% for circular badges */
+  object-fit: cover;
+  display: block;
+}
+
+/* Errors */
+.errors {
+  margin-top: 16px;
+  background: #fff6f6;
+  border: 1px solid #ffd2d2;
+  color: #9a1f1f;
+  border-radius: var(--radius);
+  padding: var(--pad);
+}
+.errors__title { font-weight: 700; margin-bottom: 6px; }
+
+/* Footer */
+.footer {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* ------- Responsive tweaks ------- */
+@media (max-width: 640px) {
+  /* Hide Pos if space is tight */
+  .cell--pos { display: none; }
+
+  /* Let points shrink a bit and not overflow */
+  .cell--pts {
+    width: auto;
+    flex: 0 0 auto;
+    margin-left: auto;           /* push to the end */
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 420px) {
+  .row {
+    flex-wrap: wrap;
+    padding: 8px 10px;
+    row-gap: 6px;
   }
+  .cell--team { order: 1; width: 100%; }
+  .cell--badge { order: 2; }
+  .cell--pts { order: 3; margin-left: auto; }
+}
+
+.team-name {
+  display: inline-block;
+  line-height: 1.2;
+  padding-left: 1rem;
 }
