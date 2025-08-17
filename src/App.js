@@ -1,22 +1,39 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
+import newDads from "./assets/newdads.png";
+import oldDads from "./assets/olddads.png";
+import notDads from "./assets/notdads.png";
 
-// ---- 1) Your teams: put the 12 entry IDs here (4 per team)
+/** Teams */
 const TEAMS = {
-  "New Dads": [5141122, 1234567, 2345678, 3456789],
-  "Old Dads": [4567890, 5678901, 6789012, 7890123],
-  "Not Dads": [8901234, 9012345, 1122334, 2233445],
+  "New Dads": [5176020, 5141122, 7767007, 7336444],
+  "Old Dads": [3283746, 786627, 8550880, 7397174],
+  "Not Dads": [6686347, 4807653, 1283058, 1890729],
 };
 
-// ---- 2) Team badges (use /public/images/* or change to imports)
 const TEAM_IMAGES = {
-  "New Dads": "/images/new_dads.png",
-  "Old Dads": "/images/old_dads.png",
-  "Not Dads": "/images/non_dads.png",
+  "New Dads": newDads,
+  "Old Dads": oldDads,
+  "Not Dads": notDads,
 };
+
+// CHANGED: arrays so index aligns with TEAMS ids
+const TEAM_PLAYERS = {
+  "New Dads": ["Eric", "Alex G", "Lee", "Pete"],
+  "Old Dads": ["Kev", "Tom", "Rich W", "Rich B"],
+  "Not Dads": ["Alex D", "Nikesh", "Jon", "Ross"],
+};
+
+/** API bases */
+const isDev = process.env.NODE_ENV === "development";
+const DEV_BASE = "/api/entry"; // CRA dev proxy -> FPL in dev
+const PROD_PROXY_BASE = "https://fpl-proxy-psi.vercel.app/api/fpl-edge"; // your Vercel function
+
+const buildApiUrl = (id) =>
+  isDev ? `${DEV_BASE}/${id}/` : `${PROD_PROXY_BASE}/${id}`;
 
 async function fetchEntryPoints(entryId) {
-  const res = await fetch(`https://fantasy.premierleague.com/api/entry/${entryId}/`);
+  const res = await fetch(buildApiUrl(entryId));
   if (!res.ok) throw new Error(`Entry ${entryId} fetch failed (${res.status})`);
   const data = await res.json();
   const pts = data?.summary_overall_points;
@@ -25,26 +42,53 @@ async function fetchEntryPoints(entryId) {
 
 export default function App() {
   const [pointsByEntry, setPointsByEntry] = useState({});
+  const [currentEvent, setCurrentEvent] = useState(null);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState([]);
 
   const allEntryIds = useMemo(() => Object.values(TEAMS).flat(), []);
 
+  async function fetchEntryJson(entryId) {
+    const res = await fetch(buildApiUrl(entryId));
+    if (!res.ok) throw new Error(`Entry ${entryId} fetch failed (${res.status})`);
+    return res.json();
+  }
+
   async function loadAll() {
     setLoading(true);
     setErrors([]);
     try {
-      const results = await Promise.allSettled(allEntryIds.map((id) => fetchEntryPoints(id)));
       const next = {};
       const errs = [];
-      results.forEach((res, i) => {
-        const id = allEntryIds[i];
-        if (res.status === "fulfilled") next[id] = res.value;
+
+      // Get GW from the first entry and capture its points
+      const [firstId, ...restIds] = allEntryIds;
+      try {
+        const firstData = await fetchEntryJson(firstId);
+        next[firstId] =
+          typeof firstData?.summary_overall_points === "number"
+            ? firstData.summary_overall_points
+            : 0;
+        setCurrentEvent(firstData?.current_event ?? null);
+      } catch (e) {
+        next[firstId] = 0;
+        errs.push(`Entry ${firstId}: ${e?.message ?? "Unknown error"}`);
+        setCurrentEvent(null);
+      }
+
+      // Fetch remaining entries as before
+      const results = await Promise.allSettled(
+        restIds.map((id) => fetchEntryPoints(id))
+      );
+      results.forEach((r, i) => {
+        const id = restIds[i];
+        if (r.status === "fulfilled") next[id] = r.value;
         else {
           next[id] = 0;
-          errs.push(`Entry ${id}: ${res.reason?.message ?? "Unknown error"}`);
+          errs.push(`Entry ${id}: ${r.reason?.message ?? "Unknown error"}`);
         }
       });
+
       setPointsByEntry(next);
       setErrors(errs);
     } finally {
@@ -57,7 +101,6 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Build league table
   const table = useMemo(() => {
     const rows = Object.entries(TEAMS).map(([team, ids]) => {
       const total = ids.reduce((sum, id) => sum + (pointsByEntry[id] ?? 0), 0);
@@ -74,39 +117,71 @@ export default function App() {
   return (
     <div className="page">
       <header className="header">
-        <h1 className="title">FPL Dads League</h1>
+        <h1 className="title">
+          FPL Dads League{currentEvent ? ` - Gameweek ${currentEvent}` : ""}
+        </h1>
         <button className="button" onClick={loadAll} disabled={loading}>
           {loading ? "Refreshing…" : "Refresh"}
         </button>
       </header>
 
       <section className="table">
-  <div className="row row--head">
-    <div className="cell cell--pos">Pos</div>
-    <div className="cell cell--team">Team</div>
-    <div className="cell cell--pts">Total points</div>
-  </div>
+        <div className="row row--head">
+          <div className="cell cell--pos">Pos</div>
+          <div className="cell cell--team">Team</div>
+          <div className="cell cell--pts">Total points</div>
+        </div>
 
-  {table.map((row) => (
-    <div key={row.team} className="row">
-      <div className="cell cell--pos">{row.rank}</div>
-      
-      {/* Team cell now contains badge + name */}
-      <div className="cell cell--team">
-        <img
-          src={TEAM_IMAGES[row.team]}
-          alt={`${row.team} badge`}
-          className="badge"
-          loading="lazy"
-        />
-        <span className="team-name">{row.team}</span>
-      </div>
+        {table.map((row) => (
+          <div key={row.team} className="row">
+            <div className="cell cell--pos pos-number">{row.rank}</div>
 
-      <div className="cell cell--pts">{row.total}</div>
-    </div>
-  ))}
-</section>
+            <div className="cell cell--team">
+              <img
+                src={TEAM_IMAGES[row.team]}
+                alt={`${row.team} badge`}
+                className="badge"
+                loading="lazy"
+              />
+              <div className="team-container">
+                <span className="team-name">{row.team}</span>
+                <div className="team-players">
+                  {TEAM_PLAYERS[row.team].map((name, idx) => {
+                    const entryId = TEAMS[row.team][idx];
+                    const href = currentEvent
+                      ? `https://fantasy.premierleague.com/entry/${entryId}/event/${currentEvent}`
+                      : `https://fantasy.premierleague.com/entry/${entryId}/`;
+                    return (
+                      <a
+                        key={entryId}
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginRight: 8 }}
+                      >
+                        {name},
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
 
+            <div className="cell cell--pts points-number">{row.total}</div>
+          </div>
+        ))}
+      </section>
+
+      {errors.length > 0 && (
+        <section className="errors">
+          <div className="errors__title">Fetch issues</div>
+          <ul>
+            {errors.map((e, i) => (
+              <li key={i}>{e}</li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }
