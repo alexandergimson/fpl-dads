@@ -1,0 +1,38 @@
+name: Weekly build & deploy
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # every Monday 09:00 UTC
+  workflow_dispatch:      # allow manual runs
+  push:
+    branches: [ main ]    # also run on pushes to main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push to gh-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build (prebuild fetches FPL JSON into public/data)
+        run: npm run build
+
+      - name: Add SPA 404 (so deep links work)
+        run: cp -f build/index.html build/404.html
+
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: build
+          clean: true
