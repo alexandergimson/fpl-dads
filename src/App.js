@@ -17,7 +17,7 @@ const TEAM_IMAGES = {
   "Not Dads": notDads,
 };
 
-// CHANGED: arrays so index aligns with TEAMS ids
+// Arrays so index aligns with TEAMS ids
 const TEAM_PLAYERS = {
   "New Dads": ["Eric", "Alex G", "Lee", "Pete"],
   "Old Dads": ["Kev", "Tom", "Rich W", "Rich B"],
@@ -27,10 +27,10 @@ const TEAM_PLAYERS = {
 /** API bases */
 const isDev = process.env.NODE_ENV === "development";
 const DEV_BASE = "/api/entry"; // CRA dev proxy -> FPL in dev
-const PROD_PROXY_BASE = "https://fpl-proxy-psi.vercel.app/api/fpl-edge"; // your Vercel function
+const PROD_FPL_BASE = "https://fantasy.premierleague.com/api/entry"; // FPL API direct
 
 const buildApiUrl = (id) =>
-  isDev ? `${DEV_BASE}/${id}/` : `${PROD_PROXY_BASE}/${id}`;
+  isDev ? `${DEV_BASE}/${id}/` : `${PROD_FPL_BASE}/${id}/`;
 
 async function fetchEntryPoints(entryId) {
   const res = await fetch(buildApiUrl(entryId));
@@ -76,7 +76,7 @@ export default function App() {
         setCurrentEvent(null);
       }
 
-      // Fetch remaining entries as before
+      // Fetch remaining entries
       const results = await Promise.allSettled(
         restIds.map((id) => fetchEntryPoints(id))
       );
