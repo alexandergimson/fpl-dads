@@ -2,7 +2,7 @@ name: Weekly build & deploy
 
 on:
   schedule:
-    - cron: "0 9 * * 1"   # every Monday 09:00 UTC
+    - cron: "0 9 * * *"   # every Monday 09:00 UTC
   workflow_dispatch:      # allow manual runs
   push:
     branches: [ main ]    # also run on pushes to main

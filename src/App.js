@@ -24,20 +24,16 @@ const TEAM_PLAYERS = {
   "Not Dads": ["Alex D", "Nikesh", "Jon", "Ross"],
 };
 
-/** API bases */
-const isDev = process.env.NODE_ENV === "development";
-const DEV_BASE = "/api/entry"; // CRA dev proxy -> FPL in dev
-const PROD_FPL_BASE = "https://fantasy.premierleague.com/api/entry"; // FPL API direct
+/** Build-time JSON base (works in dev and on GitHub Pages) */
+const BASE =
+  (process.env.PUBLIC_URL && process.env.PUBLIC_URL.replace(/\/$/, "")) || "";
 
-const buildApiUrl = (id) =>
-  isDev ? `${DEV_BASE}/${id}/` : `${PROD_FPL_BASE}/${id}/`;
-
-async function fetchEntryPoints(entryId) {
-  const res = await fetch(buildApiUrl(entryId));
-  if (!res.ok) throw new Error(`Entry ${entryId} fetch failed (${res.status})`);
-  const data = await res.json();
-  const pts = data?.summary_overall_points;
-  return typeof pts === "number" ? pts : 0; // treat null as 0
+/** Fetch a cached entry JSON produced at build time */
+async function fetchCachedEntry(entryId) {
+  const url = `${BASE}/data/entry-${entryId}.json`;
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Entry ${entryId} not found in cache (${res.status})`);
+  return res.json();
 }
 
 export default function App() {
@@ -48,12 +44,6 @@ export default function App() {
 
   const allEntryIds = useMemo(() => Object.values(TEAMS).flat(), []);
 
-  async function fetchEntryJson(entryId) {
-    const res = await fetch(buildApiUrl(entryId));
-    if (!res.ok) throw new Error(`Entry ${entryId} fetch failed (${res.status})`);
-    return res.json();
-  }
-
   async function loadAll() {
     setLoading(true);
     setErrors([]);
@@ -63,8 +53,9 @@ export default function App() {
 
       // Get GW from the first entry and capture its points
       const [firstId, ...restIds] = allEntryIds;
+
       try {
-        const firstData = await fetchEntryJson(firstId);
+        const firstData = await fetchCachedEntry(firstId);
         next[firstId] =
           typeof firstData?.summary_overall_points === "number"
             ? firstData.summary_overall_points
@@ -76,13 +67,18 @@ export default function App() {
         setCurrentEvent(null);
       }
 
-      // Fetch remaining entries
+      // Fetch remaining entries from cached JSON
       const results = await Promise.allSettled(
-        restIds.map((id) => fetchEntryPoints(id))
+        restIds.map(async (id) => {
+          const data = await fetchCachedEntry(id);
+          const pts = typeof data?.summary_overall_points === "number" ? data.summary_overall_points : 0;
+          return { id, pts };
+        })
       );
+
       results.forEach((r, i) => {
         const id = restIds[i];
-        if (r.status === "fulfilled") next[id] = r.value;
+        if (r.status === "fulfilled") next[id] = r.value.pts;
         else {
           next[id] = 0;
           errs.push(`Entry ${id}: ${r.reason?.message ?? "Unknown error"}`);
