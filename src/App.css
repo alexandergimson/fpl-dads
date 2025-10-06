@@ -200,3 +200,6 @@ body { margin: 0; background: var(--bg); color: var(--fg); font-family: ui-sans-
   gap: 1vh;                   /* enable text truncation */
 
 }
+
+.segmented .button { opacity: 0.6 }
+.segmented .button.button--active { opacity: 1; font-weight: 600; }

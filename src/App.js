@@ -41,6 +41,7 @@ export default function App() {
   const [currentEvent, setCurrentEvent] = useState(null);
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState([]);
+  const [view, setView] = useState("teams"); // "teams" | "players"
 
   const allEntryIds = useMemo(() => Object.values(TEAMS).flat(), []);
 
@@ -71,7 +72,10 @@ export default function App() {
       const results = await Promise.allSettled(
         restIds.map(async (id) => {
           const data = await fetchCachedEntry(id);
-          const pts = typeof data?.summary_overall_points === "number" ? data.summary_overall_points : 0;
+          const pts =
+            typeof data?.summary_overall_points === "number"
+              ? data.summary_overall_points
+              : 0;
           return { id, pts };
         })
       );
@@ -97,12 +101,35 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const table = useMemo(() => {
+  /** Teams table (sum per team) */
+  const teamTable = useMemo(() => {
     const rows = Object.entries(TEAMS).map(([team, ids]) => {
       const total = ids.reduce((sum, id) => sum + (pointsByEntry[id] ?? 0), 0);
       return { team, total };
     });
     rows.sort((a, b) => b.total - a.total);
+    return rows.map((row, i, arr) => {
+      const prev = arr[i - 1];
+      const rank = prev && prev.total === row.total ? "-" : i + 1;
+      return { ...row, rank };
+    });
+  }, [pointsByEntry]);
+
+  /** Players leaderboard (each entry, sorted by total points) */
+  const playerTable = useMemo(() => {
+    const rows = [];
+    for (const [teamName, ids] of Object.entries(TEAMS)) {
+      ids.forEach((id, idx) => {
+        rows.push({
+          id,
+          player: TEAM_PLAYERS[teamName][idx],
+          team: teamName,
+          total: pointsByEntry[id] ?? 0,
+        });
+      });
+    }
+    rows.sort((a, b) => b.total - a.total);
+    // rank with ties
     return rows.map((row, i, arr) => {
       const prev = arr[i - 1];
       const rank = prev && prev.total === row.total ? "-" : i + 1;
@@ -116,57 +143,119 @@ export default function App() {
         <h1 className="title">
           FPL Dads League{currentEvent ? ` - Gameweek ${currentEvent}` : ""}
         </h1>
-        <button className="button" onClick={loadAll} disabled={loading}>
-          {loading ? "Refreshing…" : "Refresh"}
-        </button>
+        <div style={{ display: "flex", gap: 8 }}>
+          <button className="button" onClick={loadAll} disabled={loading}>
+            {loading ? "Refreshing…" : "Refresh"}
+          </button>
+          <div className="segmented">
+            <button
+              className={`button ${view === "teams" ? "button--active" : ""}`}
+              onClick={() => setView("teams")}
+              aria-pressed={view === "teams"}
+              title="Show teams table"
+            >
+              Teams
+            </button>
+            <button
+              className={`button ${view === "players" ? "button--active" : ""}`}
+              onClick={() => setView("players")}
+              aria-pressed={view === "players"}
+              title="Show players leaderboard"
+            >
+              Players
+            </button>
+          </div>
+        </div>
       </header>
 
-      <section className="table">
-        <div className="row row--head">
-          <div className="cell cell--pos">Pos</div>
-          <div className="cell cell--team">Team</div>
-          <div className="cell cell--pts">Total points</div>
-        </div>
+      {view === "teams" ? (
+        <section className="table">
+          <div className="row row--head">
+            <div className="cell cell--pos">Pos</div>
+            <div className="cell cell--team">Team</div>
+            <div className="cell cell--pts">Total points</div>
+          </div>
 
-        {table.map((row) => (
-          <div key={row.team} className="row">
-            <div className="cell cell--pos pos-number">{row.rank}</div>
+          {teamTable.map((row) => (
+            <div key={row.team} className="row">
+              <div className="cell cell--pos pos-number">{row.rank}</div>
 
-            <div className="cell cell--team">
-              <img
-                src={TEAM_IMAGES[row.team]}
-                alt={`${row.team} badge`}
-                className="badge"
-                loading="lazy"
-              />
-              <div className="team-container">
-                <span className="team-name">{row.team}</span>
-                <div className="team-players">
-                  {TEAM_PLAYERS[row.team].map((name, idx) => {
-                    const entryId = TEAMS[row.team][idx];
-                    const href = currentEvent
-                      ? `https://fantasy.premierleague.com/entry/${entryId}/event/${currentEvent}`
-                      : `https://fantasy.premierleague.com/entry/${entryId}/`;
-                    return (
+              <div className="cell cell--team">
+                <img
+                  src={TEAM_IMAGES[row.team]}
+                  alt={`${row.team} badge`}
+                  className="badge"
+                  loading="lazy"
+                />
+                <div className="team-container">
+                  <span className="team-name">{row.team}</span>
+                  <div className="team-players">
+                    {TEAM_PLAYERS[row.team].map((name, idx) => {
+                      const entryId = TEAMS[row.team][idx];
+                      const href = currentEvent
+                        ? `https://fantasy.premierleague.com/entry/${entryId}/event/${currentEvent}`
+                        : `https://fantasy.premierleague.com/entry/${entryId}/`;
+                      return (
+                        <a
+                          key={entryId}
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{ marginRight: 8 }}
+                        >
+                          {name},
+                        </a>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+
+              <div className="cell cell--pts points-number">{row.total}</div>
+            </div>
+          ))}
+        </section>
+      ) : (
+        <section className="table">
+          <div className="row row--head">
+            <div className="cell cell--pos">Pos</div>
+            <div className="cell cell--team">Player</div>
+            <div className="cell cell--pts">Total points</div>
+          </div>
+
+          {playerTable.map((row) => {
+            const href = currentEvent
+              ? `https://fantasy.premierleague.com/entry/${row.id}/event/${currentEvent}`
+              : `https://fantasy.premierleague.com/entry/${row.id}/`;
+            return (
+              <div key={row.id} className="row">
+                <div className="cell cell--pos pos-number">{row.rank}</div>
+
+                <div className="cell cell--team">
+           
+                  <div className="team-container">
+                    <span className="team-name">
                       <a
-                        key={entryId}
                         href={href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ marginRight: 8 }}
+                        title={`Open ${row.player}'s FPL page`}
                       >
-                        {name},
+                        {row.player}
                       </a>
-                    );
-                  })}
+                    </span>
+                    <div className="team-players" style={{ opacity: 0.8 }}>
+                      {row.team}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
 
-            <div className="cell cell--pts points-number">{row.total}</div>
-          </div>
-        ))}
-      </section>
+                <div className="cell cell--pts points-number">{row.total}</div>
+              </div>
+            );
+          })}
+        </section>
+      )}
 
       {errors.length > 0 && (
         <section className="errors">
