@@ -34,7 +34,7 @@
         "entry_can_invite": false,
         "has_cup": true,
         "cup_league": 2849439,
-        "cup_qualified": null,
+        "cup_qualified": true,
         "rank_count": 1247029,
         "entry_percentile_rank": 10,
         "active_phases": [
@@ -615,7 +615,7 @@
         "entry_2_total": 0,
         "is_knockout": true,
         "league": 2837111,
-        "winner": null,
+        "winner": 5141122,
         "seed_value": null,
         "event": 17,
         "tiebreak": null,
