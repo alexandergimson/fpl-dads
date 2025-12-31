@@ -10,11 +10,11 @@
   "player_region_iso_code_short": "IE",
   "player_region_iso_code_long": "IRL",
   "years_active": 14,
-  "summary_overall_points": 971,
-  "summary_overall_rank": 3684956,
-  "summary_event_points": 49,
-  "summary_event_rank": 3909767,
-  "current_event": 18,
+  "summary_overall_points": 992,
+  "summary_overall_rank": 3569785,
+  "summary_event_points": 21,
+  "summary_event_rank": 4361471,
+  "current_event": 19,
   "leagues": {
     "classic": [
       {
@@ -35,32 +35,32 @@
         "has_cup": true,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 348476,
+        "rank_count": 348822,
         "entry_percentile_rank": 40,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 127540,
-            "last_rank": 131146,
-            "rank_sort": 127547,
-            "total": 971,
+            "rank": 123063,
+            "last_rank": 127540,
+            "rank_sort": 123074,
+            "total": 992,
             "league_id": 18,
-            "rank_count": 348476,
+            "rank_count": 348822,
             "entry_percentile_rank": 40
           },
           {
             "phase": 6,
-            "rank": 145925,
-            "last_rank": 157576,
-            "rank_sort": 145952,
-            "total": 298,
+            "rank": 134053,
+            "last_rank": 145925,
+            "rank_sort": 134075,
+            "total": 319,
             "league_id": 18,
-            "rank_count": 348475,
-            "entry_percentile_rank": 45
+            "rank_count": 348823,
+            "entry_percentile_rank": 40
           }
         ],
-        "entry_rank": 127540,
-        "entry_last_rank": 131146
+        "entry_rank": 123063,
+        "entry_last_rank": 127540
       },
       {
         "id": 124,
@@ -80,32 +80,32 @@
         "has_cup": true,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 337824,
-        "entry_percentile_rank": 40,
+        "rank_count": 338243,
+        "entry_percentile_rank": 35,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 121238,
-            "last_rank": 126068,
-            "rank_sort": 121245,
-            "total": 971,
+            "rank": 117553,
+            "last_rank": 121238,
+            "rank_sort": 117568,
+            "total": 992,
             "league_id": 124,
-            "rank_count": 337824,
-            "entry_percentile_rank": 40
+            "rank_count": 338243,
+            "entry_percentile_rank": 35
           },
           {
             "phase": 6,
-            "rank": 150545,
-            "last_rank": 166489,
-            "rank_sort": 150571,
-            "total": 298,
+            "rank": 140815,
+            "last_rank": 150545,
+            "rank_sort": 140840,
+            "total": 319,
             "league_id": 124,
-            "rank_count": 337826,
+            "rank_count": 338243,
             "entry_percentile_rank": 45
           }
         ],
-        "entry_rank": 121238,
-        "entry_last_rank": 126068
+        "entry_rank": 117553,
+        "entry_last_rank": 121238
       },
       {
         "id": 276,
@@ -130,27 +130,27 @@
         "active_phases": [
           {
             "phase": 1,
-            "rank": 3608105,
-            "last_rank": 3754338,
-            "rank_sort": 3608430,
-            "total": 971,
+            "rank": 3496719,
+            "last_rank": 3608105,
+            "rank_sort": 3497038,
+            "total": 992,
             "league_id": 276,
             "rank_count": 9447133,
             "entry_percentile_rank": 40
           },
           {
             "phase": 6,
-            "rank": 4081161,
-            "last_rank": 4501517,
-            "rank_sort": 4081929,
-            "total": 298,
+            "rank": 3808847,
+            "last_rank": 4081161,
+            "rank_sort": 3809371,
+            "total": 319,
             "league_id": 276,
-            "rank_count": 9435216,
+            "rank_count": 9434909,
             "entry_percentile_rank": 45
           }
         ],
-        "entry_rank": 3608105,
-        "entry_last_rank": 3754338
+        "entry_rank": 3496719,
+        "entry_last_rank": 3608105
       },
       {
         "id": 314,
@@ -170,32 +170,32 @@
         "has_cup": true,
         "cup_league": 2815434,
         "cup_qualified": true,
-        "rank_count": 12620800,
+        "rank_count": 12647286,
         "entry_percentile_rank": 30,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 3684956,
-            "last_rank": 3841951,
-            "rank_sort": 3685281,
-            "total": 971,
+            "rank": 3569785,
+            "last_rank": 3684956,
+            "rank_sort": 3570104,
+            "total": 992,
             "league_id": 314,
-            "rank_count": 12620800,
+            "rank_count": 12647286,
             "entry_percentile_rank": 30
           },
           {
             "phase": 6,
-            "rank": 4714211,
-            "last_rank": 5283219,
-            "rank_sort": 4714979,
-            "total": 298,
+            "rank": 4400853,
+            "last_rank": 4714211,
+            "rank_sort": 4401377,
+            "total": 319,
             "league_id": 314,
-            "rank_count": 12620794,
-            "entry_percentile_rank": 40
+            "rank_count": 12647270,
+            "entry_percentile_rank": 35
           }
         ],
-        "entry_rank": 3684956,
-        "entry_last_rank": 3841951
+        "entry_rank": 3569785,
+        "entry_last_rank": 3684956
       },
       {
         "id": 333,
@@ -268,7 +268,7 @@
             "rank": 2,
             "last_rank": 2,
             "rank_sort": 2,
-            "total": 971,
+            "total": 992,
             "league_id": 420556,
             "rank_count": 5,
             "entry_percentile_rank": 40
@@ -278,7 +278,7 @@
             "rank": 3,
             "last_rank": 3,
             "rank_sort": 3,
-            "total": 298,
+            "total": 319,
             "league_id": 420556,
             "rank_count": 5,
             "entry_percentile_rank": 60
@@ -306,31 +306,31 @@
         "cup_league": null,
         "cup_qualified": null,
         "rank_count": 14,
-        "entry_percentile_rank": 65,
+        "entry_percentile_rank": 50,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 9,
-            "last_rank": 8,
-            "rank_sort": 9,
-            "total": 971,
+            "rank": 7,
+            "last_rank": 9,
+            "rank_sort": 7,
+            "total": 992,
             "league_id": 420561,
             "rank_count": 14,
-            "entry_percentile_rank": 65
+            "entry_percentile_rank": 50
           },
           {
             "phase": 6,
             "rank": 7,
-            "last_rank": 9,
+            "last_rank": 7,
             "rank_sort": 7,
-            "total": 298,
+            "total": 319,
             "league_id": 420561,
             "rank_count": 14,
             "entry_percentile_rank": 50
           }
         ],
-        "entry_rank": 9,
-        "entry_last_rank": 8
+        "entry_rank": 7,
+        "entry_last_rank": 9
       },
       {
         "id": 441258,
@@ -358,7 +358,7 @@
             "rank": 8,
             "last_rank": 8,
             "rank_sort": 8,
-            "total": 971,
+            "total": 992,
             "league_id": 441258,
             "rank_count": 12,
             "entry_percentile_rank": 70
@@ -368,7 +368,7 @@
             "rank": 10,
             "last_rank": 10,
             "rank_sort": 10,
-            "total": 298,
+            "total": 319,
             "league_id": 441258,
             "rank_count": 12,
             "entry_percentile_rank": 85
@@ -401,7 +401,7 @@
         "entry_percentile_rank": null,
         "active_phases": [],
         "entry_rank": 6,
-        "entry_last_rank": 7
+        "entry_last_rank": 6
       },
       {
         "id": 934891,
@@ -512,11 +512,12 @@
     15,
     16,
     17,
-    18
+    18,
+    19
   ],
   "kit": null,
   "last_deadline_bank": 0,
-  "last_deadline_value": 1016,
+  "last_deadline_value": 1015,
   "last_deadline_total_transfers": 20,
   "club_badge_src": null
 }
