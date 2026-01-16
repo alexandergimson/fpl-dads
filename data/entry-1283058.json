@@ -59,6 +59,7 @@
             "entry_percentile_rank": 5
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 625,
         "entry_last_rank": 632
       },
@@ -104,6 +105,7 @@
             "entry_percentile_rank": 5
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 1538653,
         "entry_last_rank": 1581890
       },
@@ -149,6 +151,7 @@
             "entry_percentile_rank": 5
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 1549937,
         "entry_last_rank": 1593615
       },
@@ -194,6 +197,7 @@
             "entry_percentile_rank": 30
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 3456179,
         "entry_last_rank": 0
       },
@@ -239,6 +243,7 @@
             "entry_percentile_rank": 20
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 2,
         "entry_last_rank": 2
       },
@@ -284,6 +289,7 @@
             "entry_percentile_rank": 10
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 13,
         "entry_last_rank": 13
       },
@@ -329,6 +335,7 @@
             "entry_percentile_rank": 5
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 8,
         "entry_last_rank": 9
       }
@@ -355,6 +362,7 @@
         "rank_count": null,
         "entry_percentile_rank": null,
         "active_phases": [],
+        "featured_entry_ids": [],
         "entry_rank": 7,
         "entry_last_rank": 6
       },
@@ -379,6 +387,7 @@
         "rank_count": null,
         "entry_percentile_rank": null,
         "active_phases": [],
+        "featured_entry_ids": [],
         "entry_rank": 4,
         "entry_last_rank": 6
       }
@@ -421,7 +430,8 @@
         "is_bye": false,
         "knockout_name": "Round of 4194304"
       }
-    ]
+    ],
+    "event": []
   },
   "name": "SOTV",
   "name_change_blocked": false,

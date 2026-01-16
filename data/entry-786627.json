@@ -59,6 +59,7 @@
             "entry_percentile_rank": 50
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 140172,
         "entry_last_rank": 142882
       },
@@ -104,6 +105,7 @@
             "entry_percentile_rank": 60
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 137835,
         "entry_last_rank": 137696
       },
@@ -149,6 +151,7 @@
             "entry_percentile_rank": 60
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 4065377,
         "entry_last_rank": 4097247
       },
@@ -194,6 +197,7 @@
             "entry_percentile_rank": 50
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 4175657,
         "entry_last_rank": 4211312
       },
@@ -239,6 +243,7 @@
             "entry_percentile_rank": 35
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 4225404,
         "entry_last_rank": 0
       },
@@ -284,6 +289,7 @@
             "entry_percentile_rank": 40
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 2,
         "entry_last_rank": 2
       },
@@ -329,6 +335,7 @@
             "entry_percentile_rank": 60
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 7,
         "entry_last_rank": 9
       },
@@ -374,6 +381,7 @@
             "entry_percentile_rank": 60
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 8,
         "entry_last_rank": 8
       }
@@ -400,6 +408,7 @@
         "rank_count": null,
         "entry_percentile_rank": null,
         "active_phases": [],
+        "featured_entry_ids": [],
         "entry_rank": 5,
         "entry_last_rank": 5
       },
@@ -424,6 +433,7 @@
         "rank_count": null,
         "entry_percentile_rank": null,
         "active_phases": [],
+        "featured_entry_ids": [],
         "entry_rank": 6,
         "entry_last_rank": 6
       },
@@ -448,6 +458,7 @@
         "rank_count": null,
         "entry_percentile_rank": null,
         "active_phases": [],
+        "featured_entry_ids": [],
         "entry_rank": 3,
         "entry_last_rank": 5
       }
@@ -544,7 +555,8 @@
         "is_bye": false,
         "knockout_name": "Round of 524288"
       }
-    ]
+    ],
+    "event": []
   },
   "name": "Kudus Gracious Me!",
   "name_change_blocked": false,
