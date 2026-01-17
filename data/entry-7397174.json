@@ -59,6 +59,7 @@
             "entry_percentile_rank": 65
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 20662,
         "entry_last_rank": 18823
       },
@@ -104,6 +105,7 @@
             "entry_percentile_rank": 60
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 913,
         "entry_last_rank": 826
       },
@@ -149,6 +151,7 @@
             "entry_percentile_rank": 65
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 4406957,
         "entry_last_rank": 3994419
       },
@@ -194,6 +197,7 @@
             "entry_percentile_rank": 60
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 4544404,
         "entry_last_rank": 4100718
       },
@@ -239,6 +243,7 @@
             "entry_percentile_rank": 65
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 7838775,
         "entry_last_rank": 0
       },
@@ -284,6 +289,7 @@
             "entry_percentile_rank": 85
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 859542,
         "entry_last_rank": 813780
       },
@@ -329,6 +335,7 @@
             "entry_percentile_rank": 80
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 6,
         "entry_last_rank": 5
       },
@@ -374,6 +381,7 @@
             "entry_percentile_rank": 100
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 6,
         "entry_last_rank": 6
       }
@@ -400,6 +408,7 @@
         "rank_count": null,
         "entry_percentile_rank": null,
         "active_phases": [],
+        "featured_entry_ids": [],
         "entry_rank": 10,
         "entry_last_rank": 10
       }
@@ -469,7 +478,8 @@
         "is_bye": false,
         "knockout_name": "Round of 524288"
       }
-    ]
+    ],
+    "event": []
   },
   "name": "Here for Beer",
   "name_change_blocked": false,
