@@ -10,10 +10,10 @@
   "player_region_iso_code_short": "BR",
   "player_region_iso_code_long": "BRA",
   "years_active": 3,
-  "summary_overall_points": 1883,
-  "summary_overall_rank": 1586513,
-  "summary_event_points": 34,
-  "summary_event_rank": 3309406,
+  "summary_overall_points": 1890,
+  "summary_overall_rank": 1673994,
+  "summary_event_points": 41,
+  "summary_event_rank": 4732167,
   "current_event": 34,
   "leagues": {
     "classic": [
@@ -40,27 +40,27 @@
         "active_phases": [
           {
             "phase": 1,
-            "rank": 616,
+            "rank": 641,
             "last_rank": 600,
-            "rank_sort": 616,
-            "total": 1883,
+            "rank_sort": 641,
+            "total": 1890,
             "league_id": 50,
             "rank_count": 8657,
             "entry_percentile_rank": 10
           },
           {
             "phase": 10,
-            "rank": 1547,
+            "rank": 1836,
             "last_rank": 1841,
-            "rank_sort": 1548,
-            "total": 155,
+            "rank_sort": 1836,
+            "total": 162,
             "league_id": 50,
             "rank_count": 8657,
-            "entry_percentile_rank": 20
+            "entry_percentile_rank": 25
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 616,
+        "entry_rank": 641,
         "entry_last_rank": 600
       },
       {
@@ -86,27 +86,27 @@
         "active_phases": [
           {
             "phase": 1,
-            "rank": 1572499,
+            "rank": 1657926,
             "last_rank": 1532770,
-            "rank_sort": 1572663,
-            "total": 1883,
+            "rank_sort": 1658089,
+            "total": 1890,
             "league_id": 276,
             "rank_count": 9447133,
             "entry_percentile_rank": 20
           },
           {
             "phase": 10,
-            "rank": 3118665,
+            "rank": 3570328,
             "last_rank": 3493850,
-            "rank_sort": 3120481,
-            "total": 155,
+            "rank_sort": 3572114,
+            "total": 162,
             "league_id": 276,
-            "rank_count": 9426418,
-            "entry_percentile_rank": 35
+            "rank_count": 9426219,
+            "entry_percentile_rank": 40
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 1572499,
+        "entry_rank": 1657926,
         "entry_last_rank": 1532770
       },
       {
@@ -127,32 +127,32 @@
         "has_cup": true,
         "cup_league": 2815434,
         "cup_qualified": true,
-        "rank_count": 12958845,
+        "rank_count": 12958356,
         "entry_percentile_rank": 15,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 1586513,
+            "rank": 1673994,
             "last_rank": 1545840,
-            "rank_sort": 1586677,
-            "total": 1883,
+            "rank_sort": 1674157,
+            "total": 1890,
             "league_id": 314,
-            "rank_count": 12958845,
+            "rank_count": 12958356,
             "entry_percentile_rank": 15
           },
           {
             "phase": 10,
-            "rank": 3446351,
+            "rank": 4035834,
             "last_rank": 3973149,
-            "rank_sort": 3448167,
-            "total": 155,
+            "rank_sort": 4037620,
+            "total": 162,
             "league_id": 314,
-            "rank_count": 12958842,
-            "entry_percentile_rank": 30
+            "rank_count": 12958349,
+            "entry_percentile_rank": 35
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 1586513,
+        "entry_rank": 1673994,
         "entry_last_rank": 1545840
       },
       {
@@ -173,32 +173,32 @@
         "has_cup": false,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 12958845,
-        "entry_percentile_rank": 20,
+        "rank_count": 12958353,
+        "entry_percentile_rank": 25,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 2368618,
+            "rank": 2599854,
             "last_rank": 2368970,
-            "rank_sort": 2369357,
-            "total": 766,
+            "rank_sort": 2600557,
+            "total": 773,
             "league_id": 333,
-            "rank_count": 12958845,
-            "entry_percentile_rank": 20
+            "rank_count": 12958353,
+            "entry_percentile_rank": 25
           },
           {
             "phase": 10,
-            "rank": 3446351,
+            "rank": 4035834,
             "last_rank": 3973149,
-            "rank_sort": 3448167,
-            "total": 155,
+            "rank_sort": 4037620,
+            "total": 162,
             "league_id": 333,
-            "rank_count": 12958842,
-            "entry_percentile_rank": 30
+            "rank_count": 12958348,
+            "entry_percentile_rank": 35
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 2368618,
+        "entry_rank": 2599854,
         "entry_last_rank": 2368970
       },
       {
@@ -213,7 +213,7 @@
         "scoring": "c",
         "admin_entry": 1714820,
         "start_event": 1,
-        "entry_can_leave": true,
+        "entry_can_leave": false,
         "entry_can_admin": false,
         "entry_can_invite": false,
         "has_cup": true,
@@ -227,7 +227,7 @@
             "rank": 2,
             "last_rank": 2,
             "rank_sort": 2,
-            "total": 1883,
+            "total": 1890,
             "league_id": 302379,
             "rank_count": 6,
             "entry_percentile_rank": 35
@@ -237,7 +237,7 @@
             "rank": 2,
             "last_rank": 2,
             "rank_sort": 2,
-            "total": 155,
+            "total": 162,
             "league_id": 302379,
             "rank_count": 6,
             "entry_percentile_rank": 35
@@ -273,7 +273,7 @@
             "rank": 12,
             "last_rank": 11,
             "rank_sort": 12,
-            "total": 1883,
+            "total": 1890,
             "league_id": 368925,
             "rank_count": 25,
             "entry_percentile_rank": 50
@@ -283,7 +283,7 @@
             "rank": 18,
             "last_rank": 21,
             "rank_sort": 18,
-            "total": 155,
+            "total": 162,
             "league_id": 368925,
             "rank_count": 25,
             "entry_percentile_rank": 75
@@ -319,7 +319,7 @@
             "rank": 8,
             "last_rank": 8,
             "rank_sort": 8,
-            "total": 1883,
+            "total": 1890,
             "league_id": 668768,
             "rank_count": 20,
             "entry_percentile_rank": 40
@@ -329,7 +329,7 @@
             "rank": 13,
             "last_rank": 14,
             "rank_sort": 13,
-            "total": 155,
+            "total": 162,
             "league_id": 668768,
             "rank_count": 20,
             "entry_percentile_rank": 65
@@ -363,7 +363,7 @@
         "entry_percentile_rank": null,
         "active_phases": [],
         "featured_entry_ids": [],
-        "entry_rank": 9,
+        "entry_rank": 7,
         "entry_last_rank": 9
       },
       {
@@ -462,7 +462,7 @@
         "entry_1_entry": 3108762,
         "entry_1_name": "Tartaruga Time",
         "entry_1_player_name": "Matthew Taylor",
-        "entry_1_points": 14,
+        "entry_1_points": 27,
         "entry_1_win": 0,
         "entry_1_draw": 0,
         "entry_1_loss": 0,
@@ -470,7 +470,7 @@
         "entry_2_entry": 1283058,
         "entry_2_name": "SOTV",
         "entry_2_player_name": "Jon Brock",
-        "entry_2_points": 30,
+        "entry_2_points": 37,
         "entry_2_win": 0,
         "entry_2_draw": 0,
         "entry_2_loss": 0,
@@ -489,7 +489,7 @@
         "entry_1_entry": 1283058,
         "entry_1_name": "SOTV",
         "entry_1_player_name": "Jon Brock",
-        "entry_1_points": 30,
+        "entry_1_points": 37,
         "entry_1_win": 0,
         "entry_1_draw": 0,
         "entry_1_loss": 0,
@@ -497,7 +497,7 @@
         "entry_2_entry": 9036415,
         "entry_2_name": "Thomas Franquinas",
         "entry_2_player_name": "Alex Nott",
-        "entry_2_points": 9,
+        "entry_2_points": 12,
         "entry_2_win": 0,
         "entry_2_draw": 0,
         "entry_2_loss": 0,
