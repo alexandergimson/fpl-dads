@@ -259,7 +259,7 @@
         "scoring": "c",
         "admin_entry": 1746142,
         "start_event": 1,
-        "entry_can_leave": false,
+        "entry_can_leave": true,
         "entry_can_admin": false,
         "entry_can_invite": false,
         "has_cup": true,
@@ -310,7 +310,7 @@
         "entry_can_invite": false,
         "has_cup": true,
         "cup_league": 3207768,
-        "cup_qualified": null,
+        "cup_qualified": true,
         "rank_count": 14,
         "entry_percentile_rank": 60,
         "active_phases": [
@@ -356,7 +356,7 @@
         "entry_can_invite": false,
         "has_cup": true,
         "cup_league": 3227640,
-        "cup_qualified": null,
+        "cup_qualified": true,
         "rank_count": 12,
         "entry_percentile_rank": 70,
         "active_phases": [
