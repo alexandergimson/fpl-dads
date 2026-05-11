@@ -10,10 +10,10 @@
   "player_region_iso_code_short": "BR",
   "player_region_iso_code_long": "BRA",
   "years_active": 3,
-  "summary_overall_points": 2016,
-  "summary_overall_rank": 1291062,
-  "summary_event_points": 66,
-  "summary_event_rank": 153434,
+  "summary_overall_points": 2027,
+  "summary_overall_rank": 1439248,
+  "summary_event_points": 77,
+  "summary_event_rank": 892290,
   "current_event": 36,
   "leagues": {
     "classic": [
@@ -40,27 +40,27 @@
         "active_phases": [
           {
             "phase": 1,
-            "rank": 512,
+            "rank": 562,
             "last_rank": 633,
-            "rank_sort": 512,
-            "total": 2016,
+            "rank_sort": 562,
+            "total": 2027,
             "league_id": 50,
             "rank_count": 8689,
             "entry_percentile_rank": 10
           },
           {
             "phase": 11,
-            "rank": 194,
+            "rank": 447,
             "last_rank": 2099,
-            "rank_sort": 194,
-            "total": 126,
+            "rank_sort": 448,
+            "total": 137,
             "league_id": 50,
             "rank_count": 8689,
-            "entry_percentile_rank": 5
+            "entry_percentile_rank": 10
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 512,
+        "entry_rank": 562,
         "entry_last_rank": 633
       },
       {
@@ -82,31 +82,31 @@
         "cup_league": null,
         "cup_qualified": null,
         "rank_count": 9447133,
-        "entry_percentile_rank": 15,
+        "entry_percentile_rank": 20,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 1281427,
+            "rank": 1426965,
             "last_rank": 1595632,
-            "rank_sort": 1281586,
-            "total": 2016,
+            "rank_sort": 1427112,
+            "total": 2027,
             "league_id": 276,
             "rank_count": 9447133,
-            "entry_percentile_rank": 15
+            "entry_percentile_rank": 20
           },
           {
             "phase": 11,
-            "rank": 303094,
+            "rank": 797462,
             "last_rank": 2332328,
-            "rank_sort": 305860,
-            "total": 126,
+            "rank_sort": 802278,
+            "total": 137,
             "league_id": 276,
-            "rank_count": 9425084,
-            "entry_percentile_rank": 5
+            "rank_count": 9424989,
+            "entry_percentile_rank": 10
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 1281427,
+        "entry_rank": 1426965,
         "entry_last_rank": 1595632
       },
       {
@@ -127,32 +127,32 @@
         "has_cup": true,
         "cup_league": 2815434,
         "cup_qualified": true,
-        "rank_count": 12977480,
-        "entry_percentile_rank": 10,
+        "rank_count": 12977197,
+        "entry_percentile_rank": 15,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 1291062,
+            "rank": 1439248,
             "last_rank": 1610766,
-            "rank_sort": 1291221,
-            "total": 2016,
+            "rank_sort": 1439395,
+            "total": 2027,
             "league_id": 314,
-            "rank_count": 12977480,
-            "entry_percentile_rank": 10
+            "rank_count": 12977197,
+            "entry_percentile_rank": 15
           },
           {
             "phase": 11,
-            "rank": 342868,
+            "rank": 898267,
             "last_rank": 3015535,
-            "rank_sort": 345634,
-            "total": 126,
+            "rank_sort": 903083,
+            "total": 137,
             "league_id": 314,
-            "rank_count": 12977471,
-            "entry_percentile_rank": 5
+            "rank_count": 12977191,
+            "entry_percentile_rank": 10
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 1291062,
+        "entry_rank": 1439248,
         "entry_last_rank": 1610766
       },
       {
@@ -173,32 +173,32 @@
         "has_cup": false,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 12977476,
-        "entry_percentile_rank": 15,
+        "rank_count": 12977193,
+        "entry_percentile_rank": 20,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 1666031,
+            "rank": 1967624,
             "last_rank": 2435112,
-            "rank_sort": 1666656,
-            "total": 899,
+            "rank_sort": 1968295,
+            "total": 910,
             "league_id": 333,
-            "rank_count": 12977476,
-            "entry_percentile_rank": 15
+            "rank_count": 12977193,
+            "entry_percentile_rank": 20
           },
           {
             "phase": 11,
-            "rank": 342868,
+            "rank": 898267,
             "last_rank": 3015535,
-            "rank_sort": 345634,
-            "total": 126,
+            "rank_sort": 903083,
+            "total": 137,
             "league_id": 333,
-            "rank_count": 12977471,
-            "entry_percentile_rank": 5
+            "rank_count": 12977191,
+            "entry_percentile_rank": 10
           }
         ],
         "featured_entry_ids": [],
-        "entry_rank": 1666031,
+        "entry_rank": 1967624,
         "entry_last_rank": 2435112
       },
       {
@@ -227,20 +227,20 @@
             "rank": 2,
             "last_rank": 2,
             "rank_sort": 2,
-            "total": 2016,
+            "total": 2027,
             "league_id": 302379,
             "rank_count": 6,
             "entry_percentile_rank": 35
           },
           {
             "phase": 11,
-            "rank": 1,
+            "rank": 2,
             "last_rank": 2,
-            "rank_sort": 1,
-            "total": 126,
+            "rank_sort": 2,
+            "total": 137,
             "league_id": 302379,
             "rank_count": 6,
-            "entry_percentile_rank": 20
+            "entry_percentile_rank": 35
           }
         ],
         "featured_entry_ids": [],
@@ -273,20 +273,20 @@
             "rank": 11,
             "last_rank": 12,
             "rank_sort": 11,
-            "total": 2016,
+            "total": 2027,
             "league_id": 368925,
             "rank_count": 25,
             "entry_percentile_rank": 45
           },
           {
             "phase": 11,
-            "rank": 4,
+            "rank": 9,
             "last_rank": 10,
-            "rank_sort": 4,
-            "total": 126,
+            "rank_sort": 9,
+            "total": 137,
             "league_id": 368925,
             "rank_count": 25,
-            "entry_percentile_rank": 20
+            "entry_percentile_rank": 40
           }
         ],
         "featured_entry_ids": [],
@@ -319,20 +319,20 @@
             "rank": 7,
             "last_rank": 7,
             "rank_sort": 7,
-            "total": 2016,
+            "total": 2027,
             "league_id": 668768,
             "rank_count": 20,
             "entry_percentile_rank": 35
           },
           {
             "phase": 11,
-            "rank": 3,
+            "rank": 5,
             "last_rank": 6,
-            "rank_sort": 3,
-            "total": 126,
+            "rank_sort": 5,
+            "total": 137,
             "league_id": 668768,
             "rank_count": 20,
-            "entry_percentile_rank": 15
+            "entry_percentile_rank": 25
           }
         ],
         "featured_entry_ids": [],
@@ -462,7 +462,7 @@
         "entry_1_entry": 3352967,
         "entry_1_name": "The Yank",
         "entry_1_player_name": "Ryan Wirth",
-        "entry_1_points": 28,
+        "entry_1_points": 73,
         "entry_1_win": 0,
         "entry_1_draw": 0,
         "entry_1_loss": 0,
@@ -470,7 +470,7 @@
         "entry_2_entry": 1283058,
         "entry_2_name": "SOTV",
         "entry_2_player_name": "Jon Brock",
-        "entry_2_points": 66,
+        "entry_2_points": 77,
         "entry_2_win": 0,
         "entry_2_draw": 0,
         "entry_2_loss": 0,
@@ -489,7 +489,7 @@
         "entry_1_entry": 1283058,
         "entry_1_name": "SOTV",
         "entry_1_player_name": "Jon Brock",
-        "entry_1_points": 66,
+        "entry_1_points": 77,
         "entry_1_win": 0,
         "entry_1_draw": 0,
         "entry_1_loss": 0,
@@ -497,7 +497,7 @@
         "entry_2_entry": 827787,
         "entry_2_name": "Kinder Mbeumo",
         "entry_2_player_name": "Aidan Tolley",
-        "entry_2_points": 52,
+        "entry_2_points": 75,
         "entry_2_win": 0,
         "entry_2_draw": 0,
         "entry_2_loss": 0,
@@ -516,7 +516,7 @@
         "entry_1_entry": 1283058,
         "entry_1_name": "SOTV",
         "entry_1_player_name": "Jon Brock",
-        "entry_1_points": 66,
+        "entry_1_points": 77,
         "entry_1_win": 0,
         "entry_1_draw": 0,
         "entry_1_loss": 0,
