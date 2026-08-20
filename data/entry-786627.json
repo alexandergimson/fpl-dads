@@ -384,6 +384,52 @@
         "featured_entry_ids": [],
         "entry_rank": 0,
         "entry_last_rank": 0
+      },
+      {
+        "id": 1234984,
+        "name": "Jio Star League",
+        "short_name": "brd-starsports",
+        "created": "2026-08-18T13:06:43.840330Z",
+        "closed": false,
+        "rank": null,
+        "max_entries": null,
+        "league_type": "s",
+        "scoring": "c",
+        "admin_entry": null,
+        "start_event": 1,
+        "entry_can_leave": false,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "has_cup": false,
+        "cup_league": null,
+        "cup_qualified": null,
+        "rank_count": null,
+        "entry_percentile_rank": null,
+        "active_phases": [
+          {
+            "phase": 1,
+            "rank": 0,
+            "last_rank": 0,
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 1234984,
+            "rank_count": null,
+            "entry_percentile_rank": null
+          },
+          {
+            "phase": 2,
+            "rank": 0,
+            "last_rank": 0,
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 1234984,
+            "rank_count": null,
+            "entry_percentile_rank": null
+          }
+        ],
+        "featured_entry_ids": [],
+        "entry_rank": 0,
+        "entry_last_rank": 0
       }
     ],
     "h2h": [],
