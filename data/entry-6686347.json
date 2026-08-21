@@ -1,27 +1,27 @@
 {
   "id": 6686347,
-  "joined_time": "2025-08-13T18:22:21.537645Z",
+  "joined_time": "2026-08-20T10:02:00.347322Z",
   "started_event": 1,
-  "favourite_team": 19,
-  "player_first_name": "Alex",
-  "player_last_name": "Denham",
-  "player_region_id": 96,
-  "player_region_name": "Hong Kong, China",
-  "player_region_iso_code_short": "HK",
-  "player_region_iso_code_long": "HKG",
-  "years_active": 6,
-  "summary_overall_points": 448,
-  "summary_overall_rank": 285602,
-  "summary_event_points": 68,
-  "summary_event_rank": 3963554,
-  "current_event": 7,
+  "favourite_team": 6,
+  "player_first_name": "Harrison",
+  "player_last_name": "Maina",
+  "player_region_id": 111,
+  "player_region_name": "Kenya",
+  "player_region_iso_code_short": "KE",
+  "player_region_iso_code_long": "KEN",
+  "years_active": 1,
+  "summary_overall_points": null,
+  "summary_overall_rank": null,
+  "summary_event_points": null,
+  "summary_event_rank": null,
+  "current_event": null,
   "leagues": {
     "classic": [
       {
-        "id": 19,
-        "name": "West Ham",
-        "short_name": "team-19",
-        "created": "2025-07-20T23:14:28.644227Z",
+        "id": 6,
+        "name": "Chelsea",
+        "short_name": "team-6",
+        "created": "2026-07-23T11:36:56.573638Z",
         "closed": false,
         "rank": null,
         "max_entries": null,
@@ -35,38 +35,39 @@
         "has_cup": true,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 107968,
-        "entry_percentile_rank": 5,
+        "rank_count": null,
+        "entry_percentile_rank": null,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 2867,
-            "last_rank": 2422,
-            "rank_sort": 2901,
-            "total": 448,
-            "league_id": 19,
-            "rank_count": 107968,
-            "entry_percentile_rank": 5
+            "rank": 0,
+            "last_rank": 0,
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 6,
+            "rank_count": null,
+            "entry_percentile_rank": null
           },
           {
-            "phase": 4,
-            "rank": 34708,
+            "phase": 2,
+            "rank": 0,
             "last_rank": 0,
-            "rank_sort": 35522,
-            "total": 68,
-            "league_id": 19,
-            "rank_count": 107968,
-            "entry_percentile_rank": 35
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 6,
+            "rank_count": null,
+            "entry_percentile_rank": null
           }
         ],
-        "entry_rank": 2867,
-        "entry_last_rank": 2422
+        "featured_entry_ids": [],
+        "entry_rank": 0,
+        "entry_last_rank": 0
       },
       {
-        "id": 116,
-        "name": "Hong Kong",
-        "short_name": "region-96",
-        "created": "2025-07-20T23:14:30.375936Z",
+        "id": 131,
+        "name": "Kenya",
+        "short_name": "region-111",
+        "created": "2026-07-23T11:36:58.267021Z",
         "closed": false,
         "rank": null,
         "max_entries": null,
@@ -80,38 +81,39 @@
         "has_cup": true,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 44487,
-        "entry_percentile_rank": 5,
+        "rank_count": null,
+        "entry_percentile_rank": null,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 980,
-            "last_rank": 673,
-            "rank_sort": 991,
-            "total": 448,
-            "league_id": 116,
-            "rank_count": 44487,
-            "entry_percentile_rank": 5
+            "rank": 0,
+            "last_rank": 0,
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 131,
+            "rank_count": null,
+            "entry_percentile_rank": null
           },
           {
-            "phase": 4,
-            "rank": 17179,
+            "phase": 2,
+            "rank": 0,
             "last_rank": 0,
-            "rank_sort": 17487,
-            "total": 68,
-            "league_id": 116,
-            "rank_count": 44487,
-            "entry_percentile_rank": 40
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 131,
+            "rank_count": null,
+            "entry_percentile_rank": null
           }
         ],
-        "entry_rank": 980,
-        "entry_last_rank": 673
+        "featured_entry_ids": [],
+        "entry_rank": 0,
+        "entry_last_rank": 0
       },
       {
         "id": 276,
         "name": "Gameweek 1",
         "short_name": "event-1",
-        "created": "2025-07-20T23:14:33.264422Z",
+        "created": "2026-07-23T11:37:00.226484Z",
         "closed": false,
         "rank": null,
         "max_entries": null,
@@ -125,38 +127,39 @@
         "has_cup": false,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 9447133,
-        "entry_percentile_rank": 5,
+        "rank_count": null,
+        "entry_percentile_rank": null,
         "active_phases": [
           {
             "phase": 1,
-            "rank": 285517,
-            "last_rank": 228646,
-            "rank_sort": 289085,
-            "total": 448,
+            "rank": 0,
+            "last_rank": 0,
+            "rank_sort": 0,
+            "total": 0,
             "league_id": 276,
-            "rank_count": 9447133,
-            "entry_percentile_rank": 5
+            "rank_count": null,
+            "entry_percentile_rank": null
           },
           {
-            "phase": 4,
-            "rank": 3321640,
+            "phase": 2,
+            "rank": 0,
             "last_rank": 0,
-            "rank_sort": 3397061,
-            "total": 68,
+            "rank_sort": 0,
+            "total": 0,
             "league_id": 276,
-            "rank_count": 9443579,
-            "entry_percentile_rank": 40
+            "rank_count": null,
+            "entry_percentile_rank": null
           }
         ],
-        "entry_rank": 285517,
-        "entry_last_rank": 228646
+        "featured_entry_ids": [],
+        "entry_rank": 0,
+        "entry_last_rank": 0
       },
       {
         "id": 314,
         "name": "Overall",
         "short_name": "overall",
-        "created": "2025-07-20T23:14:33.933835Z",
+        "created": "2026-07-23T11:37:00.733233Z",
         "closed": false,
         "rank": null,
         "max_entries": null,
@@ -170,51 +173,6 @@
         "has_cup": true,
         "cup_league": null,
         "cup_qualified": null,
-        "rank_count": 12032728,
-        "entry_percentile_rank": 5,
-        "active_phases": [
-          {
-            "phase": 1,
-            "rank": 285602,
-            "last_rank": 228675,
-            "rank_sort": 289170,
-            "total": 448,
-            "league_id": 314,
-            "rank_count": 12032728,
-            "entry_percentile_rank": 5
-          },
-          {
-            "phase": 4,
-            "rank": 3963542,
-            "last_rank": 0,
-            "rank_sort": 4038963,
-            "total": 68,
-            "league_id": 314,
-            "rank_count": 12032695,
-            "entry_percentile_rank": 35
-          }
-        ],
-        "entry_rank": 285602,
-        "entry_last_rank": 228675
-      },
-      {
-        "id": 333,
-        "name": "Second Chance",
-        "short_name": "sc",
-        "created": "2025-07-20T23:14:34.276586Z",
-        "closed": false,
-        "rank": null,
-        "max_entries": null,
-        "league_type": "s",
-        "scoring": "c",
-        "admin_entry": null,
-        "start_event": 21,
-        "entry_can_leave": false,
-        "entry_can_admin": false,
-        "entry_can_invite": false,
-        "has_cup": false,
-        "cup_league": null,
-        "cup_qualified": null,
         "rank_count": null,
         "entry_percentile_rank": null,
         "active_phases": [
@@ -224,82 +182,36 @@
             "last_rank": 0,
             "rank_sort": 0,
             "total": 0,
-            "league_id": 333,
+            "league_id": 314,
             "rank_count": null,
             "entry_percentile_rank": null
           },
           {
-            "phase": 4,
+            "phase": 2,
             "rank": 0,
             "last_rank": 0,
             "rank_sort": 0,
             "total": 0,
-            "league_id": 333,
+            "league_id": 314,
             "rank_count": null,
             "entry_percentile_rank": null
           }
         ],
+        "featured_entry_ids": [],
         "entry_rank": 0,
         "entry_last_rank": 0
       },
       {
-        "id": 368925,
-        "name": "UNSP FC",
-        "short_name": null,
-        "created": "2025-07-25T11:57:13.676287Z",
+        "id": 1234976,
+        "name": "SuperSport League",
+        "short_name": "brd-supersport",
+        "created": "2026-08-18T13:06:43.695731Z",
         "closed": false,
         "rank": null,
         "max_entries": null,
-        "league_type": "x",
+        "league_type": "s",
         "scoring": "c",
-        "admin_entry": 1511697,
-        "start_event": 1,
-        "entry_can_leave": true,
-        "entry_can_admin": false,
-        "entry_can_invite": false,
-        "has_cup": true,
-        "cup_league": null,
-        "cup_qualified": null,
-        "rank_count": 25,
-        "entry_percentile_rank": 15,
-        "active_phases": [
-          {
-            "phase": 1,
-            "rank": 3,
-            "last_rank": 3,
-            "rank_sort": 3,
-            "total": 448,
-            "league_id": 368925,
-            "rank_count": 25,
-            "entry_percentile_rank": 15
-          },
-          {
-            "phase": 4,
-            "rank": 14,
-            "last_rank": 0,
-            "rank_sort": 14,
-            "total": 68,
-            "league_id": 368925,
-            "rank_count": 25,
-            "entry_percentile_rank": 60
-          }
-        ],
-        "entry_rank": 3,
-        "entry_last_rank": 3
-      }
-    ],
-    "h2h": [
-      {
-        "id": 1125107,
-        "name": "6th Dance - Will Denham Win?",
-        "short_name": null,
-        "created": "2025-08-10T10:34:33.833008Z",
-        "closed": true,
-        "rank": null,
-        "max_entries": null,
-        "league_type": "x",
-        "scoring": "h",
-        "admin_entry": 5141122,
+        "admin_entry": null,
         "start_event": 1,
         "entry_can_leave": false,
         "entry_can_admin": false,
@@ -309,11 +221,34 @@
         "cup_qualified": null,
         "rank_count": null,
         "entry_percentile_rank": null,
-        "active_phases": [],
-        "entry_rank": 2,
-        "entry_last_rank": 1
+        "active_phases": [
+          {
+            "phase": 1,
+            "rank": 0,
+            "last_rank": 0,
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 1234976,
+            "rank_count": null,
+            "entry_percentile_rank": null
+          },
+          {
+            "phase": 2,
+            "rank": 0,
+            "last_rank": 0,
+            "rank_sort": 0,
+            "total": 0,
+            "league_id": 1234976,
+            "rank_count": null,
+            "entry_percentile_rank": null
+          }
+        ],
+        "featured_entry_ids": [],
+        "entry_rank": 0,
+        "entry_last_rank": 0
       }
     ],
+    "h2h": [],
     "cup": {
       "matches": [],
       "status": {
@@ -324,22 +259,15 @@
       },
       "cup_league": null
     },
-    "cup_matches": []
+    "cup_matches": [],
+    "event": []
   },
-  "name": "Free Time FC",
+  "name": "Ninja skates",
   "name_change_blocked": false,
-  "entered_events": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
-  ],
+  "entered_events": [],
   "kit": null,
-  "last_deadline_bank": 19,
-  "last_deadline_value": 1018,
-  "last_deadline_total_transfers": 5,
+  "last_deadline_bank": null,
+  "last_deadline_value": null,
+  "last_deadline_total_transfers": 0,
   "club_badge_src": null
 }
