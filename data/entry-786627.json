@@ -12,9 +12,9 @@
   "years_active": 13,
   "summary_overall_points": 45,
   "summary_overall_rank": 5859109,
-  "summary_event_points": 45,
-  "summary_event_rank": 5859118,
-  "current_event": 1,
+  "summary_event_points": 0,
+  "summary_event_rank": null,
+  "current_event": 2,
   "leagues": {
     "classic": [
       {
@@ -41,7 +41,7 @@
           {
             "phase": 1,
             "rank": 891749,
-            "last_rank": 0,
+            "last_rank": 891749,
             "rank_sort": 895115,
             "total": 45,
             "league_id": 16,
@@ -51,7 +51,7 @@
           {
             "phase": 2,
             "rank": 891751,
-            "last_rank": 0,
+            "last_rank": 891751,
             "rank_sort": 895117,
             "total": 45,
             "league_id": 16,
@@ -61,7 +61,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 891749,
-        "entry_last_rank": 0
+        "entry_last_rank": 891749
       },
       {
         "id": 120,
@@ -87,7 +87,7 @@
           {
             "phase": 1,
             "rank": 131904,
-            "last_rank": 0,
+            "last_rank": 131904,
             "rank_sort": 132213,
             "total": 45,
             "league_id": 120,
@@ -97,7 +97,7 @@
           {
             "phase": 2,
             "rank": 131904,
-            "last_rank": 0,
+            "last_rank": 131904,
             "rank_sort": 132213,
             "total": 45,
             "league_id": 120,
@@ -107,7 +107,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 131904,
-        "entry_last_rank": 0
+        "entry_last_rank": 131904
       },
       {
         "id": 276,
@@ -133,7 +133,7 @@
           {
             "phase": 1,
             "rank": 5859110,
-            "last_rank": 0,
+            "last_rank": 5859110,
             "rank_sort": 5878855,
             "total": 45,
             "league_id": 276,
@@ -143,7 +143,7 @@
           {
             "phase": 2,
             "rank": 5859106,
-            "last_rank": 0,
+            "last_rank": 5859106,
             "rank_sort": 5878851,
             "total": 45,
             "league_id": 276,
@@ -153,7 +153,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 5859110,
-        "entry_last_rank": 0
+        "entry_last_rank": 5859110
       },
       {
         "id": 314,
@@ -179,7 +179,7 @@
           {
             "phase": 1,
             "rank": 5859109,
-            "last_rank": 0,
+            "last_rank": 5859109,
             "rank_sort": 5878854,
             "total": 45,
             "league_id": 314,
@@ -189,7 +189,7 @@
           {
             "phase": 2,
             "rank": 5859107,
-            "last_rank": 0,
+            "last_rank": 5859107,
             "rank_sort": 5878852,
             "total": 45,
             "league_id": 314,
@@ -199,7 +199,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 5859109,
-        "entry_last_rank": 0
+        "entry_last_rank": 5859109
       },
       {
         "id": 322,
@@ -225,7 +225,7 @@
           {
             "phase": 1,
             "rank": 971155,
-            "last_rank": 0,
+            "last_rank": 971155,
             "rank_sort": 976544,
             "total": 45,
             "league_id": 322,
@@ -235,7 +235,7 @@
           {
             "phase": 2,
             "rank": 971155,
-            "last_rank": 0,
+            "last_rank": 971155,
             "rank_sort": 976544,
             "total": 45,
             "league_id": 322,
@@ -245,7 +245,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 971155,
-        "entry_last_rank": 0
+        "entry_last_rank": 971155
       },
       {
         "id": 915674,
@@ -271,7 +271,7 @@
           {
             "phase": 1,
             "rank": 12,
-            "last_rank": 0,
+            "last_rank": 12,
             "rank_sort": 12,
             "total": 45,
             "league_id": 915674,
@@ -281,7 +281,7 @@
           {
             "phase": 2,
             "rank": 12,
-            "last_rank": 0,
+            "last_rank": 12,
             "rank_sort": 12,
             "total": 45,
             "league_id": 915674,
@@ -291,7 +291,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 12,
-        "entry_last_rank": 0
+        "entry_last_rank": 12
       },
       {
         "id": 915675,
@@ -317,7 +317,7 @@
           {
             "phase": 1,
             "rank": 10,
-            "last_rank": 0,
+            "last_rank": 10,
             "rank_sort": 10,
             "total": 45,
             "league_id": 915675,
@@ -327,7 +327,7 @@
           {
             "phase": 2,
             "rank": 10,
-            "last_rank": 0,
+            "last_rank": 10,
             "rank_sort": 10,
             "total": 45,
             "league_id": 915675,
@@ -337,7 +337,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 10,
-        "entry_last_rank": 0
+        "entry_last_rank": 10
       },
       {
         "id": 975768,
@@ -363,7 +363,7 @@
           {
             "phase": 1,
             "rank": 35,
-            "last_rank": 0,
+            "last_rank": 35,
             "rank_sort": 35,
             "total": 45,
             "league_id": 975768,
@@ -373,7 +373,7 @@
           {
             "phase": 2,
             "rank": 35,
-            "last_rank": 0,
+            "last_rank": 35,
             "rank_sort": 35,
             "total": 45,
             "league_id": 975768,
@@ -383,7 +383,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 35,
-        "entry_last_rank": 0
+        "entry_last_rank": 35
       },
       {
         "id": 1234984,
@@ -409,7 +409,7 @@
           {
             "phase": 1,
             "rank": 131904,
-            "last_rank": 0,
+            "last_rank": 131904,
             "rank_sort": 132213,
             "total": 45,
             "league_id": 1234984,
@@ -419,7 +419,7 @@
           {
             "phase": 2,
             "rank": 131904,
-            "last_rank": 0,
+            "last_rank": 131904,
             "rank_sort": 132213,
             "total": 45,
             "league_id": 1234984,
@@ -429,7 +429,7 @@
         ],
         "featured_entry_ids": [],
         "entry_rank": 131904,
-        "entry_last_rank": 0
+        "entry_last_rank": 131904
       }
     ],
     "h2h": [],
@@ -449,11 +449,12 @@
   "name": "Sesko and TIkaaooo",
   "name_change_blocked": false,
   "entered_events": [
-    1
+    1,
+    2
   ],
   "kit": null,
   "last_deadline_bank": 0,
-  "last_deadline_value": 1000,
+  "last_deadline_value": 1002,
   "last_deadline_total_transfers": 0,
   "club_badge_src": null
 }
