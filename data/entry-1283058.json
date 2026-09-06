@@ -10,10 +10,10 @@
   "player_region_iso_code_short": "DK",
   "player_region_iso_code_long": "DNK",
   "years_active": 2,
-  "summary_overall_points": 133,
-  "summary_overall_rank": 5186262,
-  "summary_event_points": 3,
-  "summary_event_rank": 6637191,
+  "summary_overall_points": 162,
+  "summary_overall_rank": 5185976,
+  "summary_event_points": 32,
+  "summary_event_rank": 6908962,
   "current_event": 3,
   "leagues": {
     "classic": [
@@ -24,20 +24,20 @@
             "last_rank": 895003,
             "league_id": 16,
             "phase": 1,
-            "rank": 917223,
-            "rank_count": 1731751,
-            "rank_sort": 918037,
-            "total": 133
+            "rank": 909748,
+            "rank_count": 1731792,
+            "rank_sort": 910473,
+            "total": 162
           },
           {
-            "entry_percentile_rank": 50,
+            "entry_percentile_rank": 60,
             "last_rank": 0,
             "league_id": 16,
             "phase": 3,
-            "rank": 824052,
-            "rank_count": 1731754,
-            "rank_sort": 844219,
-            "total": 3
+            "rank": 1018108,
+            "rank_count": 1731787,
+            "rank_sort": 1019593,
+            "total": 32
           }
         ],
         "admin_entry": null,
@@ -50,7 +50,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 895003,
         "entry_percentile_rank": 55,
-        "entry_rank": 937983,
+        "entry_rank": 908631,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 16,
@@ -58,7 +58,7 @@
         "max_entries": null,
         "name": "Man Utd",
         "rank": null,
-        "rank_count": 1731751,
+        "rank_count": 1731792,
         "scoring": "c",
         "short_name": "team-16",
         "start_event": 1
@@ -70,20 +70,20 @@
             "last_rank": 34057,
             "league_id": 78,
             "phase": 1,
-            "rank": 36602,
-            "rank_count": 72250,
-            "rank_sort": 36640,
-            "total": 133
+            "rank": 38425,
+            "rank_count": 72246,
+            "rank_sort": 38448,
+            "total": 162
           },
           {
-            "entry_percentile_rank": 60,
+            "entry_percentile_rank": 75,
             "last_rank": 0,
             "league_id": 78,
             "phase": 3,
-            "rank": 40920,
-            "rank_count": 72250,
-            "rank_sort": 41602,
-            "total": 3
+            "rank": 50593,
+            "rank_count": 72246,
+            "rank_sort": 50633,
+            "total": 32
           }
         ],
         "admin_entry": null,
@@ -96,7 +96,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 34057,
         "entry_percentile_rank": 55,
-        "entry_rank": 37170,
+        "entry_rank": 38375,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 78,
@@ -104,7 +104,7 @@
         "max_entries": null,
         "name": "Denmark",
         "rank": null,
-        "rank_count": 72250,
+        "rank_count": 72246,
         "scoring": "c",
         "short_name": "region-58",
         "start_event": 1
@@ -116,20 +116,20 @@
             "last_rank": 4679209,
             "league_id": 276,
             "phase": 1,
-            "rank": 5064994,
-            "rank_count": 8898735,
-            "rank_sort": 5071105,
-            "total": 133
+            "rank": 5190017,
+            "rank_count": 8898383,
+            "rank_sort": 5194826,
+            "total": 162
           },
           {
-            "entry_percentile_rank": 55,
+            "entry_percentile_rank": 70,
             "last_rank": 0,
             "league_id": 276,
             "phase": 3,
-            "rank": 4829133,
-            "rank_count": 8898732,
-            "rank_sort": 4947424,
-            "total": 3
+            "rank": 6005645,
+            "rank_count": 8898364,
+            "rank_sort": 6014059,
+            "total": 32
           }
         ],
         "admin_entry": null,
@@ -142,7 +142,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 4679209,
         "entry_percentile_rank": 60,
-        "entry_rank": 5181877,
+        "entry_rank": 5181602,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -150,7 +150,7 @@
         "max_entries": null,
         "name": "Gameweek 1",
         "rank": null,
-        "rank_count": 8898735,
+        "rank_count": 8898383,
         "scoring": "c",
         "short_name": "event-1",
         "start_event": 1
@@ -162,20 +162,20 @@
             "last_rank": 4680575,
             "league_id": 314,
             "phase": 1,
-            "rank": 5068738,
-            "rank_count": 10409972,
-            "rank_sort": 5074849,
-            "total": 133
+            "rank": 5194345,
+            "rank_count": 10409391,
+            "rank_sort": 5199154,
+            "total": 162
           },
           {
-            "entry_percentile_rank": 60,
+            "entry_percentile_rank": 70,
             "last_rank": 0,
             "league_id": 314,
             "phase": 3,
-            "rank": 5830780,
-            "rank_count": 10409958,
-            "rank_sort": 5949071,
-            "total": 3
+            "rank": 6916112,
+            "rank_count": 10409362,
+            "rank_sort": 6924526,
+            "total": 32
           }
         ],
         "admin_entry": null,
@@ -188,7 +188,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 4680575,
         "entry_percentile_rank": 50,
-        "entry_rank": 5186262,
+        "entry_rank": 5185976,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -196,7 +196,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 10409972,
+        "rank_count": 10409391,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
@@ -211,17 +211,17 @@
             "rank": 5,
             "rank_count": 8,
             "rank_sort": 5,
-            "total": 133
+            "total": 162
           },
           {
-            "entry_percentile_rank": 75,
+            "entry_percentile_rank": 100,
             "last_rank": 0,
             "league_id": 189683,
             "phase": 3,
-            "rank": 6,
+            "rank": 8,
             "rank_count": 8,
-            "rank_sort": 6,
-            "total": 3
+            "rank_sort": 8,
+            "total": 32
           }
         ],
         "admin_entry": 655031,
@@ -254,20 +254,20 @@
             "last_rank": 286233,
             "league_id": 431167,
             "phase": 1,
-            "rank": 309443,
-            "rank_count": 547952,
-            "rank_sort": 309761,
-            "total": 133
+            "rank": 320833,
+            "rank_count": 547929,
+            "rank_sort": 321044,
+            "total": 162
           },
           {
-            "entry_percentile_rank": 60,
+            "entry_percentile_rank": 75,
             "last_rank": 0,
             "league_id": 431167,
             "phase": 3,
-            "rank": 310658,
-            "rank_count": 547952,
-            "rank_sort": 317803,
-            "total": 3
+            "rank": 389188,
+            "rank_count": 547930,
+            "rank_sort": 389639,
+            "total": 32
           }
         ],
         "admin_entry": null,
@@ -280,7 +280,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 286233,
         "entry_percentile_rank": 60,
-        "entry_rank": 313791,
+        "entry_rank": 320426,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 431167,
@@ -288,9 +288,55 @@
         "max_entries": null,
         "name": "Viaplay League",
         "rank": null,
-        "rank_count": 547952,
+        "rank_count": 547929,
         "scoring": "c",
         "short_name": "brd-viaplay",
+        "start_event": 1
+      },
+      {
+        "active_phases": [
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 431170,
+            "phase": 1,
+            "rank": 0,
+            "rank_count": 2078871,
+            "rank_sort": 0,
+            "total": 0
+          },
+          {
+            "entry_percentile_rank": null,
+            "last_rank": 0,
+            "league_id": 431170,
+            "phase": 3,
+            "rank": 0,
+            "rank_count": 2078869,
+            "rank_sort": 0,
+            "total": 0
+          }
+        ],
+        "admin_entry": null,
+        "closed": false,
+        "created": "2026-07-30T12:01:10.398217Z",
+        "cup_league": null,
+        "cup_qualified": null,
+        "entry_can_admin": false,
+        "entry_can_invite": false,
+        "entry_can_leave": false,
+        "entry_last_rank": 0,
+        "entry_percentile_rank": null,
+        "entry_rank": 1142037,
+        "featured_entry_ids": [],
+        "has_cup": false,
+        "id": 431170,
+        "league_type": "s",
+        "max_entries": null,
+        "name": "Adobe Express Badge League",
+        "rank": null,
+        "rank_count": 2078871,
+        "scoring": "c",
+        "short_name": "partner-adobe",
         "start_event": 1
       }
     ],
@@ -319,5 +365,5 @@
   "last_deadline_bank": 5,
   "last_deadline_value": 1001,
   "last_deadline_total_transfers": 2,
-  "club_badge_src": "Pending"
+  "club_badge_src": "https://fantasy.premierleague.com/gcs/plfpl-production-adobe-approved/plfpl-production/1283058/8cc22412-d2f8-4111-aa64-55f010a33132.png"
 }
