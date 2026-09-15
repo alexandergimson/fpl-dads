@@ -10,10 +10,10 @@
   "player_region_iso_code_short": "GR",
   "player_region_iso_code_long": "GRC",
   "years_active": 3,
-  "summary_overall_points": 240,
-  "summary_overall_rank": 5250570,
-  "summary_event_points": 70,
-  "summary_event_rank": 4037059,
+  "summary_overall_points": 241,
+  "summary_overall_rank": 5548505,
+  "summary_event_points": 71,
+  "summary_event_rank": 4943085,
   "current_event": 4,
   "leagues": {
     "classic": [
@@ -24,20 +24,20 @@
             "last_rank": 13178,
             "league_id": 103,
             "phase": 1,
-            "rank": 11316,
+            "rank": 12185,
             "rank_count": 24959,
-            "rank_sort": 11337,
-            "total": 240
+            "rank_sort": 12214,
+            "total": 241
           },
           {
-            "entry_percentile_rank": 40,
+            "entry_percentile_rank": 50,
             "last_rank": 13588,
             "league_id": 103,
             "phase": 3,
-            "rank": 9660,
+            "rank": 12054,
             "rank_count": 24959,
-            "rank_sort": 9735,
-            "total": 121
+            "rank_sort": 12123,
+            "total": 122
           }
         ],
         "admin_entry": null,
@@ -50,7 +50,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 13178,
         "entry_percentile_rank": 50,
-        "entry_rank": 11580,
+        "entry_rank": 12185,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 103,
@@ -66,24 +66,24 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 60,
+            "entry_percentile_rank": 65,
             "last_rank": 6042594,
             "league_id": 276,
             "phase": 1,
-            "rank": 5130502,
-            "rank_count": 8896454,
-            "rank_sort": 5142347,
-            "total": 240
+            "rank": 5530772,
+            "rank_count": 8896026,
+            "rank_sort": 5541728,
+            "total": 241
           },
           {
-            "entry_percentile_rank": 45,
+            "entry_percentile_rank": 50,
             "last_rank": 4600509,
             "league_id": 276,
             "phase": 3,
-            "rank": 3584966,
-            "rank_count": 8896421,
-            "rank_sort": 3618497,
-            "total": 121
+            "rank": 4447374,
+            "rank_count": 8896021,
+            "rank_sort": 4479356,
+            "total": 122
           }
         ],
         "admin_entry": null,
@@ -95,8 +95,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 6042594,
-        "entry_percentile_rank": 60,
-        "entry_rank": 5236448,
+        "entry_percentile_rank": 65,
+        "entry_rank": 5530730,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -104,7 +104,7 @@
         "max_entries": null,
         "name": "Gameweek 1",
         "rank": null,
-        "rank_count": 8896454,
+        "rank_count": 8896026,
         "scoring": "c",
         "short_name": "event-1",
         "start_event": 1
@@ -112,24 +112,24 @@
       {
         "active_phases": [
           {
-            "entry_percentile_rank": 50,
+            "entry_percentile_rank": 55,
             "last_rank": 6049699,
             "league_id": 314,
             "phase": 1,
-            "rank": 5142716,
-            "rank_count": 10674625,
-            "rank_sort": 5154561,
-            "total": 240
+            "rank": 5548550,
+            "rank_count": 10673914,
+            "rank_sort": 5559506,
+            "total": 241
           },
           {
-            "entry_percentile_rank": 40,
+            "entry_percentile_rank": 50,
             "last_rank": 5284448,
             "league_id": 314,
             "phase": 3,
-            "rank": 3996663,
-            "rank_count": 10674555,
-            "rank_sort": 4030194,
-            "total": 121
+            "rank": 4966955,
+            "rank_count": 10673901,
+            "rank_sort": 4998937,
+            "total": 122
           }
         ],
         "admin_entry": null,
@@ -141,8 +141,8 @@
         "entry_can_invite": false,
         "entry_can_leave": false,
         "entry_last_rank": 6049699,
-        "entry_percentile_rank": 50,
-        "entry_rank": 5250570,
+        "entry_percentile_rank": 55,
+        "entry_rank": 5548505,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -150,7 +150,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 10674625,
+        "rank_count": 10673914,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
@@ -165,17 +165,17 @@
             "rank": 4,
             "rank_count": 7,
             "rank_sort": 4,
-            "total": 240
+            "total": 241
           },
           {
-            "entry_percentile_rank": 60,
+            "entry_percentile_rank": 75,
             "last_rank": 2,
             "league_id": 583090,
             "phase": 3,
-            "rank": 4,
+            "rank": 5,
             "rank_count": 7,
-            "rank_sort": 4,
-            "total": 121
+            "rank_sort": 5,
+            "total": 122
           }
         ],
         "admin_entry": 2885377,
@@ -211,7 +211,7 @@
             "rank": 13,
             "rank_count": 20,
             "rank_sort": 13,
-            "total": 240
+            "total": 241
           },
           {
             "entry_percentile_rank": 45,
@@ -221,7 +221,7 @@
             "rank": 9,
             "rank_count": 20,
             "rank_sort": 9,
-            "total": 121
+            "total": 122
           }
         ],
         "admin_entry": null,
@@ -256,18 +256,18 @@
             "phase": 1,
             "rank": 14,
             "rank_count": 20,
-            "rank_sort": 14,
-            "total": 240
+            "rank_sort": 15,
+            "total": 241
           },
           {
-            "entry_percentile_rank": 40,
+            "entry_percentile_rank": 50,
             "last_rank": 10,
             "league_id": 1768212,
             "phase": 3,
-            "rank": 8,
+            "rank": 10,
             "rank_count": 20,
-            "rank_sort": 8,
-            "total": 121
+            "rank_sort": 10,
+            "total": 122
           }
         ],
         "admin_entry": null,
