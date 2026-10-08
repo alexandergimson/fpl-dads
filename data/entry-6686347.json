@@ -10,10 +10,6 @@
   "player_region_iso_code_short": "KE",
   "player_region_iso_code_long": "KEN",
   "years_active": 1,
-  "summary_overall_points": 322,
-  "summary_overall_rank": 2546118,
-  "summary_event_points": 62,
-  "summary_event_rank": 1354130,
   "current_event": 5,
   "leagues": {
     "classic": [
@@ -50,7 +46,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 295195,
         "entry_percentile_rank": 30,
-        "entry_rank": 213798,
+        "entry_rank": 213800,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 6,
@@ -142,7 +138,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 3387982,
         "entry_percentile_rank": 30,
-        "entry_rank": 2545122,
+        "entry_rank": 2545070,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -188,7 +184,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 3389315,
         "entry_percentile_rank": 25,
-        "entry_rank": 2546118,
+        "entry_rank": 2546066,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -234,7 +230,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 342410,
         "entry_percentile_rank": 20,
-        "entry_rank": 239599,
+        "entry_rank": 239600,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 1234976,
@@ -357,5 +353,9 @@
   "last_deadline_bank": 11,
   "last_deadline_value": 1006,
   "last_deadline_total_transfers": 6,
-  "club_badge_src": null
+  "club_badge_src": null,
+  "summary_overall_points": 322,
+  "summary_event_points": 62,
+  "summary_event_rank": 1354091,
+  "summary_overall_rank": 2546066
 }

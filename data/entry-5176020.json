@@ -10,10 +10,6 @@
   "player_region_iso_code_short": "GR",
   "player_region_iso_code_long": "GRC",
   "years_active": 3,
-  "summary_overall_points": 306,
-  "summary_overall_rank": 3935017,
-  "summary_event_points": 65,
-  "summary_event_rank": 910870,
   "current_event": 5,
   "leagues": {
     "classic": [
@@ -96,7 +92,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 5530772,
         "entry_percentile_rank": 45,
-        "entry_rank": 3929069,
+        "entry_rank": 3929009,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -142,7 +138,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 5548550,
         "entry_percentile_rank": 40,
-        "entry_rank": 3935017,
+        "entry_rank": 3934957,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -357,5 +353,9 @@
   "last_deadline_bank": 12,
   "last_deadline_value": 999,
   "last_deadline_total_transfers": 4,
-  "club_badge_src": null
+  "club_badge_src": null,
+  "summary_overall_points": 306,
+  "summary_event_points": 65,
+  "summary_event_rank": 910843,
+  "summary_overall_rank": 3934957
 }

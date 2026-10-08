@@ -10,10 +10,6 @@
   "player_region_iso_code_short": "EG",
   "player_region_iso_code_long": "EGY",
   "years_active": 7,
-  "summary_overall_points": 345,
-  "summary_overall_rank": 949968,
-  "summary_event_points": 59,
-  "summary_event_rank": 1777407,
   "current_event": 5,
   "leagues": {
     "classic": [
@@ -50,7 +46,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 183171,
         "entry_percentile_rank": 10,
-        "entry_rank": 111634,
+        "entry_rank": 111633,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 1,
@@ -142,7 +138,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 1492930,
         "entry_percentile_rank": 15,
-        "entry_rank": 949931,
+        "entry_rank": 949899,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -188,7 +184,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 1492968,
         "entry_percentile_rank": 10,
-        "entry_rank": 949968,
+        "entry_rank": 949936,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -326,7 +322,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 297859,
         "entry_percentile_rank": 10,
-        "entry_rank": 172400,
+        "entry_rank": 172388,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 2260821,
@@ -403,5 +399,9 @@
   "last_deadline_bank": 14,
   "last_deadline_value": 1006,
   "last_deadline_total_transfers": 1,
-  "club_badge_src": null
+  "club_badge_src": null,
+  "summary_overall_points": 345,
+  "summary_event_points": 59,
+  "summary_event_rank": 1777361,
+  "summary_overall_rank": 949936
 }
