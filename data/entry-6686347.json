@@ -46,7 +46,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 226369,
         "entry_percentile_rank": 25,
-        "entry_rank": 202053,
+        "entry_rank": 202051,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 6,
@@ -138,7 +138,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 2433596,
         "entry_percentile_rank": 30,
-        "entry_rank": 2298992,
+        "entry_rank": 2298979,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -184,7 +184,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 2435342,
         "entry_percentile_rank": 25,
-        "entry_rank": 2300995,
+        "entry_rank": 2300982,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -230,7 +230,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 221016,
         "entry_percentile_rank": 15,
-        "entry_rank": 194566,
+        "entry_rank": 194564,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 1234976,
@@ -302,14 +302,14 @@
             "total": 136
           },
           {
-            "entry_percentile_rank": 20,
+            "entry_percentile_rank": 25,
             "last_rank": 2578395,
             "league_id": 2430021,
             "phase": 4,
-            "rank": 2101163,
-            "rank_count": 11063311,
-            "rank_sort": 2107409,
-            "total": 135
+            "rank": 2250747,
+            "rank_count": 11063203,
+            "rank_sort": 2257160,
+            "total": 136
           }
         ],
         "admin_entry": null,
@@ -322,7 +322,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 2578395,
         "entry_percentile_rank": 25,
-        "entry_rank": 2250749,
+        "entry_rank": 2250736,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 2430021,
@@ -368,6 +368,6 @@
   "club_badge_src": null,
   "summary_overall_points": 454,
   "summary_event_points": 71,
-  "summary_event_rank": 2209708,
-  "summary_overall_rank": 2300995
+  "summary_event_rank": 2209693,
+  "summary_overall_rank": 2300982
 }
