@@ -20,20 +20,20 @@
             "last_rank": 11001,
             "league_id": 103,
             "phase": 1,
-            "rank": 10410,
-            "rank_count": 26388,
-            "rank_sort": 10423,
-            "total": 445
+            "rank": 10116,
+            "rank_count": 26389,
+            "rank_sort": 10126,
+            "total": 465
           },
           {
             "entry_percentile_rank": 60,
             "last_rank": 17610,
             "league_id": 103,
             "phase": 4,
-            "rank": 14994,
-            "rank_count": 26388,
-            "rank_sort": 15013,
-            "total": 139
+            "rank": 14725,
+            "rank_count": 26389,
+            "rank_sort": 14747,
+            "total": 159
           }
         ],
         "admin_entry": null,
@@ -46,7 +46,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 11001,
         "entry_percentile_rank": 40,
-        "entry_rank": 10289,
+        "entry_rank": 10116,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 103,
@@ -54,7 +54,7 @@
         "max_entries": null,
         "name": "Greece",
         "rank": null,
-        "rank_count": 26388,
+        "rank_count": 26389,
         "scoring": "c",
         "short_name": "region-83",
         "start_event": 1
@@ -66,20 +66,20 @@
             "last_rank": 4849405,
             "league_id": 276,
             "phase": 1,
-            "rank": 4589166,
-            "rank_count": 8889706,
-            "rank_sort": 4595547,
-            "total": 445
+            "rank": 4451597,
+            "rank_count": 8889265,
+            "rank_sort": 4458507,
+            "total": 465
           },
           {
-            "entry_percentile_rank": 65,
+            "entry_percentile_rank": 60,
             "last_rank": 6273109,
             "league_id": 276,
             "phase": 4,
-            "rank": 5520991,
-            "rank_count": 8889673,
-            "rank_sort": 5531607,
-            "total": 139
+            "rank": 5306932,
+            "rank_count": 8889260,
+            "rank_sort": 5319227,
+            "total": 159
           }
         ],
         "admin_entry": null,
@@ -92,7 +92,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 4849405,
         "entry_percentile_rank": 55,
-        "entry_rank": 4534291,
+        "entry_rank": 4451590,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 276,
@@ -100,7 +100,7 @@
         "max_entries": null,
         "name": "Gameweek 1",
         "rank": null,
-        "rank_count": 8889706,
+        "rank_count": 8889265,
         "scoring": "c",
         "short_name": "event-1",
         "start_event": 1
@@ -112,20 +112,20 @@
             "last_rank": 4889593,
             "league_id": 314,
             "phase": 1,
-            "rank": 4627663,
-            "rank_count": 11112310,
-            "rank_sort": 4634044,
-            "total": 445
+            "rank": 4482994,
+            "rank_count": 11111663,
+            "rank_sort": 4489904,
+            "total": 465
           },
           {
             "entry_percentile_rank": 60,
             "last_rank": 7447022,
             "league_id": 314,
             "phase": 4,
-            "rank": 6426468,
-            "rank_count": 11112270,
-            "rank_sort": 6437084,
-            "total": 139
+            "rank": 6234060,
+            "rank_count": 11111646,
+            "rank_sort": 6246355,
+            "total": 159
           }
         ],
         "admin_entry": null,
@@ -138,7 +138,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 4889593,
         "entry_percentile_rank": 45,
-        "entry_rank": 4571062,
+        "entry_rank": 4482987,
         "featured_entry_ids": [],
         "has_cup": true,
         "id": 314,
@@ -146,7 +146,7 @@
         "max_entries": null,
         "name": "Overall",
         "rank": null,
-        "rank_count": 11112310,
+        "rank_count": 11111663,
         "scoring": "c",
         "short_name": "overall",
         "start_event": 1
@@ -161,17 +161,17 @@
             "rank": 3,
             "rank_count": 7,
             "rank_sort": 3,
-            "total": 445
+            "total": 465
           },
           {
-            "entry_percentile_rank": 75,
+            "entry_percentile_rank": 60,
             "last_rank": 5,
             "league_id": 583090,
             "phase": 4,
-            "rank": 5,
+            "rank": 4,
             "rank_count": 7,
-            "rank_sort": 5,
-            "total": 139
+            "rank_sort": 4,
+            "total": 159
           }
         ],
         "admin_entry": 2885377,
@@ -207,17 +207,17 @@
             "rank": 11,
             "rank_count": 20,
             "rank_sort": 11,
-            "total": 445
+            "total": 465
           },
           {
-            "entry_percentile_rank": 60,
+            "entry_percentile_rank": 70,
             "last_rank": 14,
             "league_id": 1116581,
             "phase": 4,
-            "rank": 12,
+            "rank": 14,
             "rank_count": 20,
-            "rank_sort": 12,
-            "total": 139
+            "rank_sort": 14,
+            "total": 159
           }
         ],
         "admin_entry": null,
@@ -253,17 +253,17 @@
             "rank": 12,
             "rank_count": 20,
             "rank_sort": 12,
-            "total": 445
+            "total": 465
           },
           {
-            "entry_percentile_rank": 75,
+            "entry_percentile_rank": 65,
             "last_rank": 15,
             "league_id": 1768212,
             "phase": 4,
-            "rank": 15,
+            "rank": 13,
             "rank_count": 20,
-            "rank_sort": 15,
-            "total": 139
+            "rank_sort": 13,
+            "total": 159
           }
         ],
         "admin_entry": null,
@@ -296,20 +296,20 @@
             "last_rank": 7447026,
             "league_id": 2430021,
             "phase": 1,
-            "rank": 6426470,
-            "rank_count": 11112278,
-            "rank_sort": 6437086,
-            "total": 139
+            "rank": 6234063,
+            "rank_count": 11111649,
+            "rank_sort": 6246358,
+            "total": 159
           },
           {
             "entry_percentile_rank": 60,
             "last_rank": 7447019,
             "league_id": 2430021,
             "phase": 4,
-            "rank": 6426458,
-            "rank_count": 11112240,
-            "rank_sort": 6437074,
-            "total": 139
+            "rank": 6234059,
+            "rank_count": 11111635,
+            "rank_sort": 6246354,
+            "total": 159
           }
         ],
         "admin_entry": null,
@@ -322,7 +322,7 @@
         "entry_can_leave": false,
         "entry_last_rank": 7447026,
         "entry_percentile_rank": 60,
-        "entry_rank": 6299814,
+        "entry_rank": 6234058,
         "featured_entry_ids": [],
         "has_cup": false,
         "id": 2430021,
@@ -330,7 +330,7 @@
         "max_entries": null,
         "name": "Second Chance",
         "rank": null,
-        "rank_count": 11112278,
+        "rank_count": 11111649,
         "scoring": "c",
         "short_name": "sc",
         "start_event": 6
@@ -367,8 +367,8 @@
   "last_deadline_value": 1005,
   "last_deadline_total_transfers": 6,
   "club_badge_src": null,
-  "summary_overall_points": 446,
-  "summary_event_points": 33,
-  "summary_event_rank": 3236420,
-  "summary_overall_rank": 4571062
+  "summary_overall_points": 465,
+  "summary_event_points": 52,
+  "summary_event_rank": 3163289,
+  "summary_overall_rank": 4482987
 }
